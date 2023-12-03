@@ -31,6 +31,7 @@ http.createServer(async (req, res) =>{
                 await client.connect();
                 const cursor = client.db("billionaires_db").collection("billionaires_index").find({});
                 const results = await cursor.toArray();
+                res.setHeader("Access-Control-Allow-Origin", "*")
                 res.writeHead(200, { 'Content-Type': 'application/json' });
                 res.end(JSON.stringify(results));
             } finally {
