@@ -104,8 +104,20 @@ main, footer {
     grid-template-rows: 1fr;
 
     grid-template-areas: 
-        "project project project"
+        "project1 project2 project3"
     ;
+}
+
+#project1 {
+    grid-area: project1;
+}
+
+#project2 {
+    grid-area: project2;
+}
+
+#project3 {
+    grid-area: project3;
 }
 
 .project {
@@ -156,8 +168,20 @@ main, footer {
     grid-template-rows: 1fr;
 
     grid-template-areas: 
-        "company company company"
+        "company1 company2 company3"
     ;
+}
+
+#company1 {
+    grid-area: company1;
+}
+
+#company2 {
+    grid-area: company2;
+}
+
+#company3 {
+    grid-area: company3;
 }
 
 .company { 
@@ -228,8 +252,20 @@ main, footer {
     grid-template-rows: 1fr;
 
     grid-template-areas: 
-        "blog blog blog"
+        "blog1 blog2 blog3"
     ;
+}
+
+#blog1 {
+    grid-area: blog1;
+}
+
+#blog2 {
+    grid-area: blog2;
+}
+
+#blog3 {
+    grid-area: blog3;
 }
 
 .blog {
@@ -341,9 +377,9 @@ main, footer {
         grid-template-rows: 1fr 1fr 1fr;
     
         grid-template-areas: 
-            "project"
-            "project"
-            "project"
+            "project1"
+            "project2"
+            "project3"
         ;
     }
     
@@ -360,9 +396,9 @@ main, footer {
         grid-template-rows: 1fr 1fr 1fr;
     
         grid-template-areas: 
-            "company"
-            "company"
-            "company"
+            "company1"
+            "company2"
+            "company3"
         ;
     }
     
@@ -396,9 +432,9 @@ main, footer {
         grid-template-rows: 1fr 1fr 1fr;
     
         grid-template-areas: 
-            "blog"
-            "blog"
-            "blog"
+            "blog1"
+            "blog2"
+            "blog3"
         ;
     }
     
